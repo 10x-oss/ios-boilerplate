@@ -1,0 +1,75 @@
+# SwiftFormat Configuration
+
+--swiftversion 5.9
+
+# File options
+--exclude .build,Pods,Carthage
+
+# Format options
+--indent 4
+--tabwidth 4
+--maxwidth 120
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--wrapconditions after-first
+--funcattributes prev-line
+--typeattributes prev-line
+--varattributes same-line
+--closingparen same-line
+--commas inline
+--decimalgrouping 3,6
+--elseposition same-line
+--guardelse next-line
+--hexgrouping 4,8
+--hexliteralcase uppercase
+--ifdef no-indent
+--importgrouping alpha
+--modifierorder
+--operatorfunc spaced
+--patternlet hoist
+--ranges spaced
+--self remove
+--semicolons inline
+--stripunusedargs closure-only
+--trailingclosures
+--trimwhitespace always
+--voidtype void
+
+# Rules
+--enable blankLinesBetweenImports
+--enable consecutiveBlankLines
+--enable consecutiveSpaces
+--enable duplicateImports
+--enable elseOnSameLine
+--enable emptyBraces
+--enable leadingDelimiters
+--enable redundantBreak
+--enable redundantExtensionACL
+--enable redundantFileprivate
+--enable redundantGet
+--enable redundantInit
+--enable redundantLet
+--enable redundantLetError
+--enable redundantNilInit
+--enable redundantObjc
+--enable redundantParens
+--enable redundantPattern
+--enable redundantRawValues
+--enable redundantReturn
+--enable redundantSelf
+--enable redundantType
+--enable redundantVoidReturnType
+--enable semicolons
+--enable sortedImports
+--enable strongOutlets
+--enable trailingCommas
+--enable trailingSpace
+--enable unusedArguments
+--enable void
+--enable wrapEnumCases
+--enable wrapSwitchCases
+
+--disable acronyms
+--disable blankLinesAtEndOfScope
+--disable blankLinesAtStartOfScope
